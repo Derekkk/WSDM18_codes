@@ -1,4 +1,4 @@
-# Modelling Domain Relationships for Transfer Learning on Retrieval-based Question Answering Systems in E-commerce
+# Modelling Domain Relationships for Transfer Learning on Retrieval-based Question Answering Systems
 
 Author
 
