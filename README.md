@@ -1,5 +1,19 @@
 # Modelling Domain Relationships for Transfer Learning on Retrieval-based Question Answering Systems in E-commerce
 
+Author
+
+Jianfei YU
+
+jfyu.2014@phdis.smu.edu.sg
+
+Dec 26, 2018
+
+## Data and Code for:
+
+Modelling Domain Relationships for Transfer Learning on Retrieval-based Question Answering Systems in E-commerce
+WSDM 2018
+https://arxiv.org/abs/1711.08726
+
 (Here we use the public SNLI+MNLI data for example, since the AliExpress Data cannot be released.)
 
 This repository contains the following components:
