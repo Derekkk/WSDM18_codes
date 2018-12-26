@@ -14,7 +14,7 @@ Modelling Domain Relationships for Transfer Learning on Retrieval-based Question
 WSDM 2018
 https://arxiv.org/abs/1711.08726
 
-(Here we use the public SNLI+MNLI data for example, since the AliExpress Data cannot be released.)
+(Here we use the public SNLI+MNLI data for example.)
 
 This repository contains the following components:
 
