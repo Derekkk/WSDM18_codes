@@ -1,6 +1,6 @@
 # Modelling Domain Relationships for Transfer Learning on Retrieval-based Question Answering Systems in E-commerce
 
-(Here we use SNLI+MNLI data, since the AliExpress Data cannot be released.)
+(Here we use the public SNLI+MNLI data for example, since the AliExpress Data cannot be released.)
 
 This repository contains the following components:
 
