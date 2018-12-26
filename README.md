@@ -6,7 +6,7 @@ This repository contains the following components:
 
 - [SNLI Data] at `put the SNLI data under the fold ../data` (refer to the line 5-14 in preprocess.py)
 - [MNLI Data] at `put the MultiNLI data under the fold ../data`
-- [hCNN] at `train_transfer_model3.py` & `train_transfer_model5.py` with hCNN as the base model
+- [hCNN] at `Pyramid_Model3.py` & `Pyramid_Model5.py` with hCNN as the base model
 - [DRSS] at `train_transfer_model3.py`
 - [DRSS-Adv] at `train_transfer_model5.py`
 
