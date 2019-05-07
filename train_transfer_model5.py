@@ -269,7 +269,7 @@ def train(lr, w, l2_reg, epoch, batch_size, model_type, num_layers, data_type, n
                                     print('  feed_site_corr trace', np.trace(A))
                                     # site_corr_new = np.linalg.pinv(A)
                                     # renorm A
-                                    B = re_norm(A) # this is the correlation matrix
+                                    B = re_norm(A) # B is the correlation matrix
                                     # print ('  feed_site_corr B(no inv)\n', B)
                                     print_matrix(B, '  feed_site_corr B(no inv)')
                                     site_corr_new = np.linalg.pinv(A) # the inverse of the covariance matrix
