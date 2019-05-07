@@ -263,16 +263,16 @@ def train(lr, w, l2_reg, epoch, batch_size, model_type, num_layers, data_type, n
                                     # S = np.sqrt(np.abs(np.diag(s)))
                                     S = np.sqrt(np.diag(s))
                                     A = np.dot(U, np.dot(S, V))
-                                    A = A / np.trace(A)
+                                    A = A / np.trace(A) # this is the covariance matrix
                                     # print ('  feed_site_corr A(no inv)\n', A)
                                     print_matrix(A, '  feed_site_corr A(no inv)')
                                     print('  feed_site_corr trace', np.trace(A))
                                     # site_corr_new = np.linalg.pinv(A)
                                     # renorm A
-                                    B = re_norm(A)
+                                    B = re_norm(A) # this is the correlation matrix
                                     # print ('  feed_site_corr B(no inv)\n', B)
                                     print_matrix(B, '  feed_site_corr B(no inv)')
-                                    site_corr_new = np.linalg.pinv(B)
+                                    site_corr_new = np.linalg.pinv(A) # the inverse of the covariance matrix
                                 else:
                                     site_corr_new = np.nan
                                     print('m_w nan, skip!!')
